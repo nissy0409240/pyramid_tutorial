@@ -1,0 +1,42 @@
+.deform-seq-add:visited {
+   color: blue;
+}
+
+.deform-replaces {
+    float: left;
+}
+
+.deform-set-item {
+    padding: 1px;
+}
+
+form .required {
+    font-weight: bold;
+}
+
+form .required:after {
+    color: #e32;
+    content: '*';
+    display:inline;
+}
+
+/* ugh, terrible selector coming up */
+
+.hasDatepicker[readonly] {
+    cursor: pointer !important;
+}
+
+form .deform-readonly-text {
+    font-style: italic;
+}
+
+/* styles for file_upload.js, file_upload.pt */
+.btn-file {
+    background-color: #f2f2f2;
+}
+.btn-file:hover {
+    background-color: #ededed;
+}
+.upload-filename[readonly] {
+    background-color: #fdfdfd;
+}
